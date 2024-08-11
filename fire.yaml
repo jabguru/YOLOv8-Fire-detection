@@ -1,0 +1,4 @@
+train : '.data/data_fire/train_images'
+
+nc : 1
+names : ["Fire"]

@@ -7,14 +7,14 @@ import cv2
 import time
 
 
-yaml_filename = './fire_detection.yaml'
+yaml_filename = './fire.yaml'
 
 model = YOLO('yolov8n.yaml')
 model = YOLO('yolov8n.pt')
 model = YOLO('yolov8n.yaml').load('yolov8n.pt')
 
 
-results = model.train(data= yaml_filename, epochs = 150, imgsz = 640)
+results = model.train(data= yaml_filename, epochs = 5, imgsz = 640)
 
 # model = YOLO('runs/detect/train15/weights/best.pt')
 # results = model.val(data=yaml_filename)
