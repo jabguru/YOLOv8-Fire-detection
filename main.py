@@ -6,8 +6,8 @@ import os
 import cv2
 import time
 
-
-yaml_filename = './fire.yaml'
+print(f"Current working directory: {os.getcwd()}")
+yaml_filename = 'fire_detection.yaml'
 
 model = YOLO('yolov8n.yaml')
 model = YOLO('yolov8n.pt')
