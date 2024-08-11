@@ -1,6 +1,6 @@
-test: "/Users/admin/Documents/YOLOv8-Fire-detection/datasets/Fire_data/images/test"
-train: "/Users/admin/Documents/YOLOv8-Fire-detection/datasets/Fire_data/images/train"
-val: "/Users/admin/Documents/YOLOv8-Fire-detection/datasets/Fire_data/images/valid"
+test: "/Users/Jabguru/Desktop/YOLOv8/datasets/Fire_data/images/test"
+train: "/Users/Jabguru/Desktop/YOLOv8/datasets/Fire_data/images/train"
+val: "/Users/Jabguru/Desktop/YOLOv8/datasets/Fire_data/images/valid"
 
 nc: 1
 names: ['fire']

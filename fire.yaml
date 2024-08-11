@@ -1,5 +1,0 @@
-train : '/Users/admin/Documents/YOLOv8-Fire-detection/data/data_fire/train'
-val : '/Users/admin/Documents/YOLOv8-Fire-detection/data/data_fire/val'
-
-nc : 1
-names : ["Fire"]
